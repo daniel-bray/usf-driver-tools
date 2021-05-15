@@ -1,0 +1,13 @@
+.homebody {
+   height: 100vh;
+    background-image: 
+   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url('https://www.ttnews.com/sites/default/files/images/articles/column-1200_0.jpg');
+
+   background-size: cover;
+   background-position: center; 
+}
+
+.bg-usftheme {
+   background-color: #5A881C;
+}
