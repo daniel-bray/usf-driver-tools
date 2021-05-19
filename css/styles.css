@@ -10,4 +10,12 @@
 
 .bg-usftheme {
    background-color: #5A881C;
+   border: none;
+}
+
+/* .card {
+   opacity: 75%;
+} */
+.btn-usf {
+   background-color: #5A881C;
 }
