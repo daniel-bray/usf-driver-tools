@@ -253,8 +253,9 @@
               </p>
               <form>
                 <div class="row align-items-start mb-3">
+                  <label class="col-form-label" for="division">Division</label>
                   <div class="col-4 mb-3">
-                    <select class="form-select" id="division">
+                    <select class="form-select" id="division" name="division">
                       <option selected value="2230">5Y</option>
                       <!-- add options for other divisions -->
                     </select>
@@ -281,6 +282,16 @@
                       class="form-control"
                       id="route"
                       placeholder="Route"
+                    />
+                  </div>
+                  <div class="col col-md-6 mt-3">
+                    <label class="col-form-label" for="date">Date</label>
+                    <input
+                      class="form-control"
+                      type="date"
+                      id="date"
+                      name="date"
+                      placeholder="Date"
                     />
                   </div>
                 </div>

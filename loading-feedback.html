@@ -93,7 +93,105 @@
         </div>
       </div>
     </nav>
-
+    <div class="container pt-5">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="text-center">Load Feedback</h3>
+          <ul>
+            <li>Add JS to create file/e-mail to manager</li>
+            <li>Edit bootstrap to shrink width of form</li>
+          </ul>
+          <form>
+            <div class="row row-content mb-3">
+              <div class="col-6 col-sm-5 col-md-4">
+                <label class="col-form-label" for="route">Route</label>
+                <input class="form-control" type="number" name="route" />
+              </div>
+              <div class="col-6 col-sm-5 col-md-4">
+                <label class="col-form-label" for="date">Date</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  type="date"
+                  name="date"
+                />
+              </div>
+            </div>
+            <div class="row row-content mb-2">
+              <div class="col col-md-8">
+                <label class="col-form-label" for="loadMapImage"
+                  >Load Map Image</label
+                >
+                <div class="input-group" name="loadMapImage">
+                  <input type="file" class="form-control" id="loadMapImage" />
+                </div>
+              </div>
+            </div>
+            <div class="row row-content mb-2">
+              <div class="col col-md-8">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    id="loadMapFeedback"
+                  ></textarea>
+                  <label for="loadMapFeedback"
+                    >Loadmap Feedback
+                    <ul>
+                      <li>Possible limit of 'x' characters.</li>
+                      <li>Possible rich text editor for formatting.</li>
+                      <li>
+                        Possibly will combine all three feedback text areas.
+                      </li>
+                    </ul></label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="row row-content mb-2">
+              <div class="col col-md-8">
+                <label class="col-form-label" for="loadingErrorImages"
+                  >Loading Error Images
+                </label>
+                <div class="input-group mb-3" name="loadingErrorImages">
+                  <input
+                    type="file"
+                    class="form-control"
+                    id="loadingErrorImages"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row row-content mb-2">
+              <div class="col col-md-8">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    id="loadingErrorsFeedback"
+                  ></textarea>
+                  <label for="loadingErrorFeedback"
+                    >Loading Errors Feedback
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row row-content mb-2">
+              <div class="col col-md-8">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    id="additionalFeedback"
+                  ></textarea>
+                  <label for="additionalFeedback">Additional Feedback </label>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-usf-green text-white">
+              Submit Feedback
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"

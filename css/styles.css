@@ -27,3 +27,7 @@
 .btn-usf-gray {
    background-color: #717173;
 }
+
+#loadMapFeedback, #loadingErrorsFeedback, #additionalFeedback {
+   height: 100px;
+}
